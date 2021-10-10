@@ -33,7 +33,7 @@
     </label>
          <div class="form-group">
         <p>
-            What do you want your ice-cream to be served in?
+            What do you like your ice-cream to be served in?
         </p>
         <select name="type" id="dropdown" class="form-control">
         <option value="cone">
@@ -45,7 +45,7 @@
     </select>
     </div>
     <div class="form-group">
-        <p>What flavor would you like?</p>
+        <p>Favorite flavor?</p>
         <label for="chocolate">
             <input type="radio" name="flavor" value="chocolate" class="input-radio" />
             Chocolate
@@ -60,12 +60,27 @@
         </label>
         </div>
     </br>
-        <label for="comments">Comments</label>
-        </br>
-            <input type="textarea" class="comments" name="comments" placeholder="Any additional information...">
+    <p>Favorite toppings?</p>
+        <label for="sprinkles">
+            <input type="checkbox" name="topping" value="sprinkle" class="input-radio" />
+            Sprinkles
+        </label>
+        <label for="nuts">
+            <input type="checkbox" name="topping" value="nuts" class="input-radio" />
+            Nuts
+        </label>
+        <label for="choc-syrup">
+            <input type="checkbox" name="topping" value="choc-syrup" class="input-radio" />
+            Chocolate Syrup
         </label>
     </br>
-        <input class="submit" type="button" value="submit">
+        <label for="comments">Comments</label>
+        </br>
+        <textarea class="comments" name="comments" placeholder="Any additional information..."></textarea>
+            
+        </label>
+    </br>
+        <button id="submit" class="submit"  value="submit">Submit</button>
 
     </form>
 </div>
